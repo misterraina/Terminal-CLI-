@@ -1,0 +1,39 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_div{
+    border: 2px solid black;
+    height: 80vh;
+    width: 60vw;
+    overflow-y: auto;
+    font-family: monospace;
+    background-color: #111;
+    color: #eee;
+}
+
+.command-output {
+    white-space: pre-wrap;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+}
+.input-container span {
+    margin-right: 10px;
+    color: #00ff00;
+}
+.input-container input {
+    flex: 1;
+    background: none;
+    border: none;
+    color: #eee;
+    outline: none;
+    font-family: monospace;
+    font-size: 16px;
+}
