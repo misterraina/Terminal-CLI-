@@ -14,13 +14,12 @@ const contact =   `Email:ayushraina617@gmail.com
 
 const help = `
 Available commands:
-- about 
+- ls 
+- about
 - skills
 - projects
 - project projectNumber
 - social 
-- contact 
-- help
 - clear
     `;
 

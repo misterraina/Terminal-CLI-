@@ -7,7 +7,8 @@ body, html {
 }
 
 .main_div{
-    border: 2px solid black;
+    padding: 10px;
+    border: 2px solid #ccc;
     height: 80vh;
     width: 60vw;
     overflow-y: auto;
@@ -21,13 +22,20 @@ body, html {
 }
 
 .input-container {
-    display: flex;
+    /* display: flex; */
     align-items: center;
+}
+.input-container p {
+    margin-right: 10px;
+    margin-bottom: 0px;
+    color: #00ff00;
+
 }
 .input-container span {
     margin-right: 10px;
     color: #00ff00;
 }
+
 .input-container input {
     flex: 1;
     background: none;
@@ -35,5 +43,34 @@ body, html {
     color: #eee;
     outline: none;
     font-family: monospace;
-    font-size: 16px;
+    /* font-size: 16px; */
+}
+
+.p1{
+    margin-bottom: 0;
+    color: #00ff00;
+}
+.p2{
+    margin-right: 10px;
+    color: #00ff00;
+}
+.p3{
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-right: 2px;
+    padding-left: 2px;
+    /* font-size: 16px; */
+}
+.p4{
+
+}
+
+.output-return1{
+    margin: 0;
+
+}
+
+.output-return2{
+    margin: 0;
+    color: red;
 }
