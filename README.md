@@ -1,3 +1,3 @@
-This web Project i decided to made with vanilla javaScript 
+I will update the Project when i am sharing it on linkden it not fully complete
 
-I will add more stuff later
+Vanilla Js project
